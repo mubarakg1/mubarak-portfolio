@@ -2,9 +2,9 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <section className="relative z-10 min-h-screen flex items-center px-10 font-body pt-20">
+    <section className="relative z-10 min-h-screen flex items-start pt-32 md:pt-40 font-body ">
 
-      <div className=" md:max-w-70%">
+       <div className="w-full max-w-[1200px] mx-auto px-6 md:px-12 lg:px-20">
 
         {/* NAME */}
         <h3 className="hero-name ">
@@ -18,24 +18,42 @@ export default function Hero() {
         </h3>
 
         {/* ROLE */}
-        <p className="mt-6 text-xl text-blue-300 font-semibold">
-          Software Engineer • Computer Engineer
-        </p>
+       <div className="mt-6 text-xl font-semibold text-[--color-accent] flex items-center gap-2">
+
+  <TypeAnimation
+    sequence={[
+      "Software Engineer (Frontend)",
+      1500,
+      "Computer Engineer",
+      1500,
+    ]}
+    speed={50}
+    repeat={Infinity}
+    wrapper="span"
+  />
+
+  <span className="animate-pulse">|</span>
+
+</div>
 
 
         {/* DESCRIPTION */}
-        <p className="mt-6 text-[--color-textsub] leading-relaxed max-w-[650px] text-sm">
+        <p className="text-[--color-textsub] leading-relaxed max-w-[700px] md:max-w-[750px] text-base md:text-lg">
 
-          I engineer modern software systems and intelligent digital
-          experiences that solve real-world problems.
+  I engineer <span className="text-[--color-accent] font-medium">modern software systems</span> 
+  and <span className="text-[--color-accent] font-medium">intelligent digital experiences</span> 
+  that solve <span className="text-white font-medium">real-world problems</span>.
 
-          <br /><br />
+  <br /><br />
 
-          First-Class Computer Engineering graduate passionate about
-          building scalable systems, intelligent software,
-          and impactful digital solutions.
+  <span className="text-[--color-accent] font-semibold">First-Class Computer Engineering graduate</span> 
+  passionate about building 
+  <span className="text-white font-medium"> scalable systems</span>, 
+  <span className="text-white font-medium"> intelligent software</span>, 
+  and 
+  <span className="text-white font-medium"> impactful digital solutions</span>.
 
-        </p>
+</p>
 
 
         {/* BUTTONS */}

@@ -48,6 +48,7 @@ body{
 
 .accent {
   color: var(--color-accent);
+  text-shadow: 0 0 12px rgba(126, 200, 227, 0.6);
 }
 
 @keyframes revealName {
