@@ -1,17 +1,18 @@
 import { useEffect, useRef, useState } from "react";
+import SectionDivider from "../components/SectionDivider";
 
 const statsData = [
   { value: 10, label: "Projects Built", suffix: "+" },
   { value: 92, label: "First Class Graduate", suffix: "%" },
-  { value: 8, label: "Technologies Used", suffix: "+" },
-  { value: 5, label: "Years of Study", suffix: "+" },
+  { value: 2, label: "Engineering Domains", suffix: "" },
+  { value: 1, label: "Smart System Built", suffix: "+" },
 ];
 
 export default function Stats() {
   const [visible, setVisible] = useState(false);
   const sectionRef = useRef(null);
 
-  // detect when section enters screen
+  // Scroll trigger
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -22,9 +23,7 @@ export default function Stats() {
       { threshold: 0.3 }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
+    if (sectionRef.current) observer.observe(sectionRef.current);
 
     return () => {
       if (sectionRef.current) observer.unobserve(sectionRef.current);
@@ -32,10 +31,15 @@ export default function Stats() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-32 relative z-10">
+    <section ref={sectionRef} className="relative z-10 py-32">
+
       <div className="max-w-[1200px] mx-auto px-6 md:px-12 lg:px-20">
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+        {/* Divider */}
+        <SectionDivider title="Snapshot" />
+
+        {/* Stats Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center mt-12">
 
           {statsData.map((stat, i) => (
             <StatCard
@@ -50,11 +54,16 @@ export default function Stats() {
 
         </div>
 
+        {/* Bottom Divider */}
+        <SectionDivider />
+
       </div>
+
     </section>
   );
 }
 
+// 🔢 Counter Component
 function StatCard({ value, label, suffix, start, delay }) {
   const [count, setCount] = useState(0);
 
@@ -89,14 +98,16 @@ function StatCard({ value, label, suffix, start, delay }) {
 
   return (
     <div className="group">
+
       <h2 className="text-4xl md:text-5xl font-bold text-[#7EC8E3] transition duration-300 group-hover:scale-110 group-hover:shadow-[0_0_20px_#7EC8E3]">
         {count}
         {suffix}
       </h2>
 
-      <p className="mt-3 text-sm tracking-widest text-[--color-textsub] uppercase">
+      <p className="mt-3 text-xs md:text-sm tracking-widest text-[--color-textsub] uppercase">
         {label}
       </p>
+
     </div>
   );
 }
