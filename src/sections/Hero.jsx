@@ -41,7 +41,7 @@ export default function Hero() {
         <p className="text-[--color-textsub] leading-relaxed max-w-[700px] md:max-w-[750px] text-base md:text-lg">
 
   I engineer <span className="text-[--color-accent] font-medium">modern software systems</span> 
-  and <span className="text-[--color-accent] font-medium">intelligent digital experiences</span> 
+  and <span className="text-[--color-accent] font-medium">intelligent digital experiences </span> 
   that solve <span className="text-white font-medium">real-world problems</span>.
 
   <br /><br />
@@ -65,9 +65,11 @@ export default function Hero() {
             bg-[--color-accent]
             text-[--color-primary]
             font-medium
-            transition-all duration-300
+            transition-all duration-150
             hover:shadow-[0_0_35px_#7EC8E3]
             hover:scale-105
+            active:scale-95
+            active:shadow-[0_0_10px_#7EC8E3]
             "
           >
             View Projects
@@ -84,6 +86,9 @@ export default function Hero() {
             hover:text-[--color-primary]
             hover:shadow-[0_0_35px_#7EC8E3]
             hover:scale-105
+             active:scale-95
+            active:shadow-[0_0_10px_#7EC8E3]
+            
             "
           >
             Contact Me

@@ -15,7 +15,7 @@ export default {
         textsub: "#9CA3AF",
       },
       fontFamily:{
-        display: ["Sora", "sans-serif"]
+        display: ["Quantico", "sans-serif"]
       }
     },
   },
