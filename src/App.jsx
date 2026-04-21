@@ -2,6 +2,7 @@ import Cursor from './components/Cursor';
 import ParticleBackground from './components/ParticleBackground';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
+import Stats from './sections/Stats';
 // src\components\Cursor.jsx
 
 
@@ -15,7 +16,7 @@ function App() {
 
   
       <Hero/>
-
+      <Stats/>
       
     </div>
   );

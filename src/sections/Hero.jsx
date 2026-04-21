@@ -18,7 +18,7 @@ export default function Hero() {
         </h3>
 
         {/* ROLE */}
-       <div className="mt-6 text-xl font-semibold text-[--color-accent] flex items-center gap-2">
+       <div className="mt-6 text-xl font-semibold text-[--color-primary] flex items-center gap-2">
 
   <TypeAnimation
     sequence={[
