@@ -74,7 +74,7 @@ export default function Hero() {
                 active:scale-95
               "
               >
-               
+               view my work
               </button>
 
               <button
