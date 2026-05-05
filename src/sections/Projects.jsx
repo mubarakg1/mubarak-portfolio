@@ -38,14 +38,14 @@ export default function Projects() {
               <div className="mt-4 flex gap-4">
                 <a
                   href="https://mubarakg1.github.io/smart-nutrition/"
-                  className="text-[#7EC8E3] text-sm hover:underline"
+                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
                 >
                   Live
                 </a>
 
                 <a
                   href="https://github.com/mubarakg1/smart-nutrition"
-                  className="text-[#7EC8E3] text-sm hover:underline"
+                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
                 >
                   GitHub
                 </a>
@@ -80,14 +80,14 @@ export default function Projects() {
               <div className="mt-4 flex gap-4">
                 <a
                   href="https://yapassist.vercel.app/"
-                  className="text-[#7EC8E3] text-sm hover:underline"
+                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
                 >
                   Live
                 </a>
 
                 <a
                   href="https://github.com/mubarakg1/YAPASSIST"
-                  className="text-[#7EC8E3] text-sm hover:underline"
+                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
                 >
                   GitHub
                 </a>
