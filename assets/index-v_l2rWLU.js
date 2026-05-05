@@ -30,7 +30,7 @@ Error generating stack: `+e.message+`
                 hover:shadow-[0_0_35px_#7EC8E3]\r
                 hover:scale-105\r
                 active:scale-95\r
-              `}),(0,y.jsx)(`button`,{className:`\r
+              `,children:`view my work`}),(0,y.jsx)(`button`,{className:`\r
                 px-7 py-3 rounded-lg\r
                 border border-[--color-accent]\r
                 text-[--color-accent]\r
