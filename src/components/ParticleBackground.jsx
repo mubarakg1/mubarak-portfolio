@@ -25,7 +25,7 @@ export default function Particle() {
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           style={{
-            position: "fixed",
+            position: "absolute",
             inset: 0,
             zIndex: -1,
           }}

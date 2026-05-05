@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
@@ -14,25 +15,35 @@ export default function Navbar() {
         </h1>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex items-center gap-12 text-[#E6E6F0] font-display tracking-wide">
+       <ul className="hidden md:flex items-center gap-12 text-[#E6E6F0] font-display tracking-wide">
 
-          <li className="hover:text-[#7EC8E3] transition cursor-pointer">
-            Home
-          </li>
+  <li>
+    <Link
+      to="/"
+      className="hover:text-[#7EC8E3] transition"
+    >
+      Home
+    </Link>
+  </li>
 
-          <li className="hover:text-[#7EC8E3] transition cursor-pointer">
-            Projects
-          </li>
+  <li>
+    <Link
+      to="/projects"
+      className="hover:text-[#7EC8E3] transition"
+    >
+      Projects
+    </Link>
+  </li>
 
-          <li className="hover:text-[#7EC8E3] transition cursor-pointer">
-            Education
-          </li>
+  <li className="hover:text-[#7EC8E3] transition cursor-pointer">
+    Education
+  </li>
 
-          <li className="hover:text-[#7EC8E3] transition cursor-pointer">
-            Experience
-          </li>
+  <li className="hover:text-[#7EC8E3] transition cursor-pointer">
+    Experience
+  </li>
 
-        </ul>
+</ul>
 
         <button className="hidden md:block px-8 py-3 rounded-2xl border border-[rgb(126,200,227)] text-[#7EC8E3] hover:bg-[#7EC8E3] hover:text-[#120F19] transition">
           Contact

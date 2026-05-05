@@ -1,5 +1,8 @@
+import SectionDivider from "../components/SectionDivider";
+
 import smartNutritionImg from "../assets/projects-images/smart nutrition.png";
 import yapAssistImg from "../assets/projects-images/yapassist.png";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -7,10 +10,11 @@ export default function Projects() {
 
       <div className="max-w-[1200px] mx-auto px-6">
 
-        <h2 className="text-3xl font-bold mb-10">
-          Projects
+        <h2 className="text-3xl font-bold mb-10 accent">
+          Latest Projects
         </h2>
 
+        {/* PROJECT GRID */}
         <div className="grid md:grid-cols-2 gap-8">
 
           {/* 🔥 Project 1 */}
@@ -38,14 +42,18 @@ export default function Projects() {
               <div className="mt-4 flex gap-4">
                 <a
                   href="https://mubarakg1.github.io/smart-nutrition/"
-                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#7EC8E3] text-sm hover:underline"
                 >
                   Live
                 </a>
 
                 <a
                   href="https://github.com/mubarakg1/smart-nutrition"
-                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#7EC8E3] text-sm hover:underline"
                 >
                   GitHub
                 </a>
@@ -54,14 +62,14 @@ export default function Projects() {
 
           </div>
 
-          {/* 🚀 Project 2 - YAP Assist */}
-         <div className="group p-4 rounded-xl border border-white/10 hover:border-[#7EC8E3] transition overflow-hidden">
+          {/* 🚀 Project 2 */}
+          <div className="group p-4 rounded-xl border border-white/10 hover:border-[#7EC8E3] transition overflow-hidden">
 
             {/* IMAGE */}
             <div className="rounded-lg overflow-hidden">
               <img
                 src={yapAssistImg}
-                alt="Yap assist"
+                alt="YAP Assist"
                 className="w-full h-[200px] object-cover group-hover:scale-105 transition duration-500"
               />
             </div>
@@ -73,21 +81,24 @@ export default function Projects() {
               </h3>
 
               <p className="text-white/70 mt-2 text-sm">
-                AI-powered assistant that helps generate content, ideas,
-                and structured responses instantly.
+                AI-powered assistant that helps generate content, ideas, and structured responses instantly.
               </p>
 
               <div className="mt-4 flex gap-4">
                 <a
                   href="https://yapassist.vercel.app/"
-                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#7EC8E3] text-sm hover:underline"
                 >
                   Live
                 </a>
 
                 <a
                   href="https://github.com/mubarakg1/YAPASSIST"
-                  className="text-[#7EC8E3] text-sm hover:underline" target="_blank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#7EC8E3] text-sm hover:underline"
                 >
                   GitHub
                 </a>
@@ -96,7 +107,24 @@ export default function Projects() {
 
           </div>
 
+        </div>
 
+        {/* 🔥 VIEW ALL BUTTON */}
+        <div className="mt-12 flex justify-center">
+          <Link
+            to="/projects"
+            className="
+            px-8 py-3 rounded-xl
+            border border-[#7EC8E3]
+            text-[#7EC8E3]
+            hover:bg-[#7EC8E3]
+            hover:text-[#120F19]
+            transition-all duration-300
+            hover:shadow-[0_0_25px_#7EC8E3]
+            "
+          >
+            View All Projects
+          </Link>
         </div>
 
       </div>

@@ -12,7 +12,7 @@ function App() {
     <div className="relative min-h-screen bg-primary text-white ">
 
       <Cursor/>
-      <ParticleBackground/>
+      {/* <ParticleBackground/> */}
       <Navbar/>
 
   
