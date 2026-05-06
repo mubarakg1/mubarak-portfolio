@@ -5,6 +5,7 @@ import Hero from './sections/Hero';
 import Stats from './sections/Stats';
 import Projects from "./sections/Projects";
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 // src\components\Cursor.jsx
 
 
@@ -21,6 +22,7 @@ function App() {
       <Stats/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

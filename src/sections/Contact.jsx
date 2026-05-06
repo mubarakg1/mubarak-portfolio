@@ -245,7 +245,7 @@ export default function ContactSection() {
             <br /><br />
 
             Whether it’s AI-powered automation, modern interfaces,
-            or engineering-focused solutions — I’m always open to
+            or engineering-focused solutions, I’m always open to
             building something meaningful.
 
           </motion.p>
@@ -300,7 +300,7 @@ export default function ContactSection() {
             >
 
               <span className="relative z-10">
-                Start a Project
+                Get In Touch
               </span>
 
               <div className="
