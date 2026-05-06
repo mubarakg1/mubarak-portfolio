@@ -425,7 +425,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 \r
             text-base\r
             md:text-lg\r
-            `,children:[`From scalable frontend systems to intelligent software experiences, I build products engineered for performance, usability, and real-world impact.`,(0,S.jsx)(`br`,{}),(0,S.jsx)(`br`,{}),`Whether it’s AI-powered automation, modern interfaces, or engineering-focused solutions — I’m always open to building something meaningful.`]}),(0,S.jsxs)(FT.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{delay:.5},viewport:{once:!0},className:`\r
+            `,children:[`From scalable frontend systems to intelligent software experiences, I build products engineered for performance, usability, and real-world impact.`,(0,S.jsx)(`br`,{}),(0,S.jsx)(`br`,{}),`Whether it’s AI-powered automation, modern interfaces, or engineering-focused solutions, I’m always open to building something meaningful.`]}),(0,S.jsxs)(FT.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{delay:.5},viewport:{once:!0},className:`\r
             mt-12\r
 \r
             flex\r
@@ -455,7 +455,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 \r
               hover:scale-105\r
               hover:shadow-[0_0_40px_rgba(126,200,227,0.5)]\r
-              `,children:[(0,S.jsx)(`span`,{className:`relative z-10`,children:`Start a Project`}),(0,S.jsx)(`div`,{className:`\r
+              `,children:[(0,S.jsx)(`span`,{className:`relative z-10`,children:`Get In Touch`}),(0,S.jsx)(`div`,{className:`\r
                 absolute inset-0\r
 \r
                 translate-y-full\r
@@ -490,4 +490,113 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             uppercase\r
 \r
             text-gray-500\r
-            `,children:`Computer Engineer • Frontend Developer • Intelligent Systems`})]})})]})}function HT(){return(0,S.jsxs)(`div`,{className:`relative min-h-screen bg-primary text-white `,children:[(0,S.jsx)(C,{}),(0,S.jsx)(zm,{}),(0,S.jsx)(eh,{}),(0,S.jsx)(LT,{}),(0,S.jsx)(BT,{}),(0,S.jsx)(VT,{})]})}function UT(){return(0,S.jsxs)(`div`,{className:`bg-[#120F19] min-h-screen text-white pt-32 px-6 md:px-12`,children:[(0,S.jsx)(`h1`,{className:`text-3xl font-bold mb-10 text-center`,children:`All Projects`}),(0,S.jsx)(BT,{})]})}(0,y.createRoot)(document.getElementById(`root`)).render((0,S.jsx)(b.StrictMode,{children:(0,S.jsx)(vm,{children:(0,S.jsxs)(jp,{children:[(0,S.jsx)(kp,{path:`/`,element:(0,S.jsx)(HT,{})}),(0,S.jsx)(kp,{path:`/projects`,element:(0,S.jsx)(UT,{})})]})})}));
+            `,children:`Computer Engineer • Frontend Developer • Intelligent Systems`})]})})]})}function HT(){return(0,S.jsx)(`footer`,{className:`\r
+      relative\r
+      z-10\r
+      border-t border-white/10\r
+      bg-[#060816]\r
+      py-10\r
+      `,children:(0,S.jsxs)(`div`,{className:`\r
+        max-w-[1200px]\r
+        mx-auto\r
+        px-6\r
+      `,children:[(0,S.jsxs)(`div`,{className:`\r
+          flex\r
+          flex-col md:flex-row\r
+\r
+          items-center\r
+          justify-between\r
+\r
+          gap-8\r
+        `,children:[(0,S.jsxs)(FT.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},transition:{duration:.6},viewport:{once:!0},children:[(0,S.jsx)(`h1`,{className:`text-[#7EC8E3] font-display text-xl`,children:`GM`}),(0,S.jsx)(`p`,{className:`\r
+              mt-3\r
+              text-gray-400\r
+              text-sm\r
+              max-w-[320px]\r
+              leading-relaxed\r
+            `,children:`Building intelligent systems, scalable frontend experiences, and impactful digital solutions.`})]}),(0,S.jsxs)(FT.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},transition:{duration:.6,delay:.1},viewport:{once:!0},className:`\r
+            flex\r
+            items-center\r
+            gap-4\r
+            `,children:[(0,S.jsx)(`a`,{href:`https://github.com/mubarakg1`,target:`_blank`,rel:`noreferrer`,className:`\r
+              w-11 h-11\r
+              rounded-full\r
+\r
+              border border-white/10\r
+\r
+              flex\r
+              items-center\r
+              justify-center\r
+\r
+              text-gray-300\r
+\r
+              hover:border-cyan-400/40\r
+              hover:text-cyan-300\r
+\r
+              transition-all duration-300\r
+              `,children:(0,S.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`currentColor`,viewBox:`0 0 24 24`,className:`w-5 h-5`,children:(0,S.jsx)(`path`,{d:`M12 .5C5.648.5.5 5.648.5 12a11.5 11.5 0 008 10.938c.584.108.797-.254.797-.566 0-.28-.01-1.02-.016-2.002-3.25.707-3.938-1.566-3.938-1.566-.532-1.352-1.3-1.712-1.3-1.712-1.062-.726.08-.711.08-.711 1.174.082 1.79 1.206 1.79 1.206 1.044 1.79 2.74 1.274 3.408.974.106-.756.408-1.274.742-1.566-2.594-.296-5.32-1.298-5.32-5.777 0-1.276.456-2.32 1.204-3.138-.12-.296-.522-1.486.114-3.098 0 0 .982-.314 3.218 1.198A11.2 11.2 0 0112 6.092a11.2 11.2 0 012.93.396c2.234-1.512 3.214-1.198 3.214-1.198.638 1.612.236 2.802.116 3.098.75.818 1.202 1.862 1.202 3.138 0 4.49-2.73 5.478-5.332 5.768.42.362.794 1.076.794 2.168 0 1.566-.014 2.828-.014 3.214 0 .314.21.68.804.564A11.502 11.502 0 0023.5 12C23.5 5.648 18.352.5 12 .5z`})})}),(0,S.jsx)(`a`,{href:`https://x.com/its_veteran1`,target:`_blank`,rel:`noreferrer`,className:`\r
+              w-11 h-11\r
+              rounded-full\r
+\r
+              border border-white/10\r
+\r
+              flex\r
+              items-center\r
+              justify-center\r
+\r
+              text-gray-300\r
+\r
+              hover:border-cyan-400/40\r
+              hover:text-cyan-300\r
+\r
+              transition-all duration-300\r
+              `,children:(0,S.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`currentColor`,viewBox:`0 0 24 24`,className:`w-5 h-5`,children:(0,S.jsx)(`path`,{d:`M18.901 1.153h3.68l-8.04 9.19L24 22.847h-7.406l-5.8-7.584-6.637 7.584H.48l8.6-9.83L0 1.153h7.594l5.243 6.932 6.064-6.932zm-1.292 19.49h2.04L6.486 3.24H4.298l13.31 17.403z`})})}),(0,S.jsx)(`a`,{href:`https://linkedin.com`,target:`_blank`,rel:`noreferrer`,className:`\r
+              w-11 h-11\r
+              rounded-full\r
+\r
+              border border-white/10\r
+\r
+              flex\r
+              items-center\r
+              justify-center\r
+\r
+              text-gray-300\r
+\r
+              hover:border-cyan-400/40\r
+              hover:text-cyan-300\r
+\r
+              transition-all duration-300\r
+              `,children:(0,S.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`currentColor`,viewBox:`0 0 24 24`,className:`w-5 h-5`,children:(0,S.jsx)(`path`,{d:`M4.98 3.5C4.98 4.604 4.104 5.5 3 5.5S1.02 4.604 1.02 3.5 1.896 1.5 3 1.5 4.98 2.396 4.98 3.5zM1.5 8h3V22h-3V8zm7.5 0h2.879v1.917h.041C12.32 8.879 13.84 7.5 16.08 7.5 20.14 7.5 21 10.168 21 14.135V22h-3v-6.692c0-1.596-.029-3.65-2.225-3.65-2.228 0-2.57 1.74-2.57 3.534V22h-3V8z`})})})]}),(0,S.jsx)(FT.button,{initial:{opacity:0,scale:.8},whileInView:{opacity:1,scale:1},transition:{duration:.5,delay:.2},viewport:{once:!0},onClick:()=>{window.scrollTo({top:0,behavior:`smooth`})},className:`\r
+            w-12 h-12\r
+\r
+            rounded-full\r
+\r
+            border border-cyan-400/20\r
+\r
+            flex\r
+            items-center\r
+            justify-center\r
+\r
+            text-cyan-300\r
+            text-xl\r
+\r
+            hover:bg-cyan-400\r
+            hover:text-[#060816]\r
+\r
+            hover:shadow-[0_0_25px_rgba(126,200,227,0.4)]\r
+\r
+            transition-all duration-300\r
+            `,children:`↑`})]}),(0,S.jsx)(FT.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.8,delay:.3},viewport:{once:!0},className:`\r
+          mt-10\r
+          pt-6\r
+\r
+          border-t border-white/5\r
+\r
+          text-center\r
+          `,children:(0,S.jsx)(`p`,{className:`\r
+            text-xs\r
+            tracking-[0.2em]\r
+            uppercase\r
+\r
+            text-gray-500\r
+          `,children:`© 2026 Mubarak Giwa • Engineered With Precision`})})]})})}function UT(){return(0,S.jsxs)(`div`,{className:`relative min-h-screen bg-primary text-white `,children:[(0,S.jsx)(C,{}),(0,S.jsx)(zm,{}),(0,S.jsx)(eh,{}),(0,S.jsx)(LT,{}),(0,S.jsx)(BT,{}),(0,S.jsx)(VT,{}),(0,S.jsx)(HT,{})]})}function WT(){return(0,S.jsxs)(`div`,{className:`bg-[#120F19] min-h-screen text-white pt-32 px-6 md:px-12`,children:[(0,S.jsx)(`h1`,{className:`text-3xl font-bold mb-10 text-center`,children:`All Projects`}),(0,S.jsx)(BT,{})]})}(0,y.createRoot)(document.getElementById(`root`)).render((0,S.jsx)(b.StrictMode,{children:(0,S.jsx)(vm,{children:(0,S.jsxs)(jp,{children:[(0,S.jsx)(kp,{path:`/`,element:(0,S.jsx)(UT,{})}),(0,S.jsx)(kp,{path:`/projects`,element:(0,S.jsx)(WT,{})})]})})}));
