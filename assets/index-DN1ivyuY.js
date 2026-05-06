@@ -50,87 +50,68 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 rounded-full\r
                 border border-[#7EC8E3]\r
                 shadow-[0_0_30px_#7EC8E3]\r
-                `})]})})]})})]})}function Xm({title:e}){return(0,y.jsxs)(`div`,{className:`my-16 flex flex-col items-center`,children:[e&&(0,y.jsx)(`p`,{className:`font-display text-[--color-textsub] tracking-[0.3em] text-xs uppercase mb-3`,children:e}),(0,y.jsx)(`div`,{className:`w-32 h-[1px] bg-gradient-to-r from-transparent via-[#7EC8E3] to-transparent opacity-60 relative overflow-hidden`,children:(0,y.jsx)(`div`,{className:`absolute top-0 left-0 w-16 h-[1px] bg-[#7EC8E3] blur-sm animate-slide`})})]})}function Zm(){return(0,y.jsxs)(`section`,{className:`\r
+                `})]})})]})})]})}var Xm=[{value:`10+`,label:`PROJECTS BUILT`},{value:`92%`,label:`FIRST CLASS GRADUATE`},{value:`2`,label:`ENGINEERING DOMAINS`},{value:`1+`,label:`SMART SYSTEM BUILT`}];function Zm(){return(0,y.jsxs)(`section`,{className:`\r
       relative\r
-      z-10\r
-      py-28\r
-      mt-5\r
-\r
-      bg-[radial-gradient(circle_at_top,#1e1b2d_0%,#14111c_45%,#0f0d15_100%)]\r
-\r
+      overflow-hidden\r
+      py-10 md:py-14\r
+      bg-[#0b0b17]\r
       border-t\r
       border-white/5\r
-      `,children:[(0,y.jsx)(`div`,{className:`\r
-        absolute\r
-        top-0\r
-        left-1/2\r
-        -translate-x-1/2\r
-\r
-        w-[500px]\r
-        h-[200px]\r
-\r
-        bg-[#7EC8E3]/10\r
-        blur-3xl\r
-        rounded-full\r
-        pointer-events-none\r
-        `}),(0,y.jsxs)(`div`,{className:`max-w-[1200px] mx-auto px-6 md:px-12 lg:px-20`,children:[(0,y.jsx)(Xm,{title:`Snapshot`}),(0,y.jsx)(`div`,{className:`\r
-          mt-16\r
-\r
+      `,children:[(0,y.jsx)(`div`,{className:`absolute inset-0`,children:(0,y.jsx)(`div`,{className:`\r
+          absolute\r
+          inset-0\r
+          bg-[radial-gradient(circle_at_top,#141428_0%,#0b0b17_65%)]\r
+          `})}),(0,y.jsxs)(`div`,{className:`relative z-10 max-w-[1100px] mx-auto px-5`,children:[(0,y.jsxs)(`div`,{className:`text-center mb-8`,children:[(0,y.jsx)(`p`,{className:`\r
+            text-[#7EC8E3]\r
+            uppercase\r
+            tracking-[0.35em]\r
+            text-[10px]\r
+            md:text-xs\r
+            `,children:`Snapshot`}),(0,y.jsx)(`div`,{className:`\r
+            w-16\r
+            h-[1px]\r
+            bg-[#7EC8E3]/20\r
+            mx-auto\r
+            mt-3\r
+            `})]}),(0,y.jsx)(`div`,{className:`\r
           grid\r
           grid-cols-2\r
-          md:grid-cols-4\r
-\r
-          gap-6\r
-          `,children:[{number:`10+`,label:`PROJECTS BUILT`},{number:`92%`,label:`FIRST CLASS GRADUATE`},{number:`2`,label:`ENGINEERING DOMAINS`},{number:`1+`,label:`SMART SYSTEM BUILT`}].map((e,t)=>(0,y.jsxs)(`div`,{className:`\r
-              relative\r
-              overflow-hidden\r
-\r
-              rounded-3xl\r
+          lg:grid-cols-4\r
+          gap-3 md:gap-4\r
+          `,children:Xm.map((e,t)=>(0,y.jsxs)(`div`,{className:`\r
+              rounded-[22px]\r
 \r
               border\r
-              border-white/10\r
+              border-white/8\r
 \r
-              bg-white/[0.04]\r
+              bg-white/[0.02]\r
 \r
-              backdrop-blur-xl\r
+              px-5\r
+              py-6\r
 \r
-              p-8\r
+              min-h-[135px]\r
 \r
               transition-all\r
-              duration-500\r
+              duration-300\r
 \r
-              hover:-translate-y-2\r
-              hover:border-[#7EC8E3]\r
-              hover:shadow-[0_0_35px_rgba(126,200,227,0.18)]\r
-              `,children:[(0,y.jsx)(`div`,{className:`\r
-                absolute\r
-                -top-10\r
-                -right-10\r
-\r
-                w-28\r
-                h-28\r
-\r
-                rounded-full\r
-\r
-                bg-[#7EC8E3]/10\r
-                blur-3xl\r
-                `}),(0,y.jsx)(`h3`,{className:`\r
-                relative\r
-                text-4xl\r
-                md:text-5xl\r
+              hover:border-[#7EC8E3]/30\r
+              hover:bg-white/[0.03]\r
+              `,children:[(0,y.jsx)(`h3`,{className:`\r
+                text-3xl\r
+                md:text-4xl\r
                 font-bold\r
                 text-[#7EC8E3]\r
-                `,children:e.number}),(0,y.jsx)(`p`,{className:`\r
-                relative\r
-                mt-4\r
+                `,children:e.value}),(0,y.jsx)(`p`,{className:`\r
+                mt-3\r
 \r
-                text-sm\r
-                md:text-base\r
+                text-[10px]\r
+                md:text-xs\r
 \r
-                tracking-[0.15em]\r
+                leading-5\r
 \r
-                text-white/65\r
-                leading-relaxed\r
+                tracking-[0.25em]\r
+\r
+                text-white/55\r
                 `,children:e.label})]},t))})]})]})}var Qm=`/mubarak-portfolio/assets/smart%20nutrition-yuNyq1U4.png`,$m=`/mubarak-portfolio/assets/yapassist-DrHJNZoR.png`;function eh(){return(0,y.jsx)(`section`,{className:`py-20 text-white`,children:(0,y.jsxs)(`div`,{className:`max-w-[1200px] mx-auto px-6`,children:[(0,y.jsx)(`h2`,{className:`text-3xl font-bold mb-10 accent`,children:`Latest Projects`}),(0,y.jsxs)(`div`,{className:`grid md:grid-cols-2 gap-8`,children:[(0,y.jsxs)(`div`,{className:`group p-4 rounded-xl border border-white/10 hover:border-[#7EC8E3] transition overflow-hidden`,children:[(0,y.jsx)(`div`,{className:`rounded-lg overflow-hidden`,children:(0,y.jsx)(`img`,{src:Qm,alt:`Smart Nutrition System`,className:`w-full h-[200px] object-cover group-hover:scale-105 transition duration-500`})}),(0,y.jsxs)(`div`,{className:`mt-4`,children:[(0,y.jsx)(`h3`,{className:`text-xl font-semibold`,children:`Smart Nutrition System`}),(0,y.jsx)(`p`,{className:`text-white/70 mt-2 text-sm`,children:`Intelligent system that recommends nutrition plans based on user data.`}),(0,y.jsxs)(`div`,{className:`mt-4 flex gap-4`,children:[(0,y.jsx)(`a`,{href:`https://mubarakg1.github.io/smart-nutrition/`,target:`_blank`,rel:`noopener noreferrer`,className:`text-[#7EC8E3] text-sm hover:underline`,children:`Live`}),(0,y.jsx)(`a`,{href:`https://github.com/mubarakg1/smart-nutrition`,target:`_blank`,rel:`noopener noreferrer`,className:`text-[#7EC8E3] text-sm hover:underline`,children:`GitHub`})]})]})]}),(0,y.jsxs)(`div`,{className:`group p-4 rounded-xl border border-white/10 hover:border-[#7EC8E3] transition overflow-hidden`,children:[(0,y.jsx)(`div`,{className:`rounded-lg overflow-hidden`,children:(0,y.jsx)(`img`,{src:$m,alt:`YAP Assist`,className:`w-full h-[200px] object-cover group-hover:scale-105 transition duration-500`})}),(0,y.jsxs)(`div`,{className:`mt-4`,children:[(0,y.jsx)(`h3`,{className:`text-xl font-semibold`,children:`YAP Assist`}),(0,y.jsx)(`p`,{className:`text-white/70 mt-2 text-sm`,children:`AI-powered assistant that helps generate content, ideas, and structured responses instantly.`}),(0,y.jsxs)(`div`,{className:`mt-4 flex gap-4`,children:[(0,y.jsx)(`a`,{href:`https://yapassist.vercel.app/`,target:`_blank`,rel:`noopener noreferrer`,className:`text-[#7EC8E3] text-sm hover:underline`,children:`Live`}),(0,y.jsx)(`a`,{href:`https://github.com/mubarakg1/YAPASSIST`,target:`_blank`,rel:`noopener noreferrer`,className:`text-[#7EC8E3] text-sm hover:underline`,children:`GitHub`})]})]})]})]}),(0,y.jsx)(`div`,{className:`mt-12 flex justify-center`,children:(0,y.jsx)(gm,{to:`/projects`,className:`\r
             px-8 py-3 rounded-xl\r
             border border-[#7EC8E3]\r
