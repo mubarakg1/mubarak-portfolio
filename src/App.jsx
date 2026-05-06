@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Stats from './sections/Stats';
 import Projects from "./sections/Projects";
+import Contact from './sections/Contact';
 // src\components\Cursor.jsx
 
 
@@ -19,7 +20,7 @@ function App() {
       <Hero/>
       <Stats/>
       <Projects/>
-      
+      <Contact/>
     </div>
   );
 }
