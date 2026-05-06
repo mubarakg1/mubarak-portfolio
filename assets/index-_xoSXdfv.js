@@ -126,244 +126,368 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   tracking-[0.25em]\r
 \r
                   text-white/55\r
-                  `,children:e.label})]})]},t))})]})]})}var RT=[{title:`Smart Nutrition System`,description:`Intelligent system that recommends nutrition plans based on user data.`,image:`/mubarak-portfolio/assets/smart-nutrition-yuNyq1U4.png`,live:`https://mubarakg1.github.io/smart-nutrition/`,github:`https://github.com/mubarakg1/smart-nutrition`},{title:`YAP Assist`,description:`AI-powered assistant that helps generate content, ideas and structured responses instantly.`,image:`/mubarak-portfolio/assets/yapassist-DrHJNZoR.png`,live:`https://yapassist.vercel.app/`,github:`https://github.com/mubarakg1/YAPASSIST`}];function zT(){return(0,S.jsxs)(`section`,{className:`\r
-\r
-      relative \r
-\r
+                  `,children:e.label})]})]},t))})]})]})}var RT=`/mubarak-portfolio/assets/smart-nutrition-yuNyq1U4.png`,zT=`/mubarak-portfolio/assets/yapassist-DrHJNZoR.png`;function BT(){let e=[{title:`Smart Nutrition System`,category:`AI • HEALTHCARE`,stack:[`Vanilla JS`,`Tailwind`,`AI`],description:`Intelligent nutrition recommendation platform powered by user health data and meal analysis.`,image:RT,live:`https://mubarakg1.github.io/smart-nutrition/`,github:`#`},{title:`YAP Assist`,category:`AI • AUTOMATION`,stack:[`Vanilla JS`,`Tailwind`,`Automation`],description:`AI-powered assistant that helps generate content, ideas and structured responses instantly.`,image:zT,live:`#`,github:`#`}];return(0,S.jsxs)(`section`,{id:`projects`,className:`\r
+      relative\r
       z-10\r
-\r
+      py-24\r
       overflow-hidden\r
-\r
-      py-16 md:py-24\r
-\r
       bg-[#09090f]\r
-\r
-      border-t\r
-\r
-      border-white/5\r
-\r
-      `,children:[(0,S.jsxs)(`div`,{className:`absolute inset-0`,children:[(0,S.jsx)(`div`,{className:`\r
-\r
+      `,children:[(0,S.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden`,children:[(0,S.jsx)(`div`,{className:`\r
           absolute\r
-\r
-          top-[-200px]\r
-\r
-          right-[-100px]\r
-\r
-          w-[450px]\r
-\r
-          h-[450px]\r
-\r
+          top-0\r
+          left-1/2\r
+          -translate-x-1/2\r
+          w-[500px]\r
+          h-[500px]\r
+          bg-cyan-400/10\r
+          blur-[140px]\r
           rounded-full\r
-\r
-          bg-[#7EC8E3]/10\r
-\r
-          blur-[120px]\r
-\r
-          `}),(0,S.jsx)(`div`,{className:`\r
-\r
+        `}),(0,S.jsx)(`div`,{className:`\r
           absolute\r
-\r
-          bottom-[-200px]\r
-\r
-          left-[-100px]\r
-\r
-          w-[450px]\r
-\r
-          h-[450px]\r
-\r
-          rounded-full\r
-\r
-          bg-purple-500/10\r
-\r
+          bottom-0\r
+          right-0\r
+          w-[300px]\r
+          h-[300px]\r
+          bg-cyan-400/5\r
           blur-[120px]\r
-\r
-          `})]}),(0,S.jsxs)(`div`,{className:`relative z-10 max-w-[1200px] mx-auto px-6`,children:[(0,S.jsxs)(FT.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},transition:{duration:.6},viewport:{once:!0},className:`text-center mb-14`,children:[(0,S.jsx)(`p`,{className:`\r
-\r
-            text-[#7EC8E3]\r
-\r
+          rounded-full\r
+        `})]}),(0,S.jsxs)(`div`,{className:`relative z-10 max-w-[1200px] mx-auto px-6`,children:[(0,S.jsxs)(FT.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.7},viewport:{once:!0},className:`text-center mb-16`,children:[(0,S.jsx)(`p`,{className:`\r
             uppercase\r
-\r
             tracking-[0.35em]\r
-\r
-            text-[10px]\r
-\r
-            md:text-xs\r
-\r
-            `,children:`Latest Projects`}),(0,S.jsx)(`div`,{className:`\r
-\r
-            w-16\r
-\r
-            h-[1px]\r
-\r
-            bg-[#7EC8E3]/20\r
-\r
+            text-[#7EC8E3]\r
+            text-sm\r
+            font-semibold\r
+          `,children:`Latest Projects`}),(0,S.jsx)(`div`,{className:`\r
+            w-28 h-[2px]\r
+            bg-gradient-to-r\r
+            from-transparent\r
+            via-[#7EC8E3]\r
+            to-transparent\r
             mx-auto\r
-\r
-            mt-3\r
-\r
-            `})]}),(0,S.jsx)(`div`,{className:`\r
-\r
+            mt-4\r
+          `}),(0,S.jsx)(`h2`,{className:`\r
+            mt-8\r
+            text-3xl\r
+            md:text-5xl\r
+            font-bold\r
+            text-white\r
+          `,children:`Things I’ve Built`}),(0,S.jsx)(`p`,{className:`\r
+            mt-5\r
+            text-gray-400\r
+            max-w-[700px]\r
+            mx-auto\r
+            leading-relaxed\r
+            text-sm\r
+            md:text-base\r
+          `,children:`A collection of intelligent systems, automation tools, and modern web experiences engineered with performance, scalability and clean design in mind.`})]}),(0,S.jsx)(`div`,{className:`\r
           grid\r
-\r
+          grid-cols-1\r
           md:grid-cols-2\r
-\r
-          gap-6 md:gap-8\r
-\r
-          `,children:RT.map((e,t)=>(0,S.jsxs)(FT.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.6,delay:t*.12},viewport:{once:!0},whileHover:{y:-8},className:`\r
-\r
+          gap-8\r
+        `,children:e.map((e,t)=>(0,S.jsxs)(FT.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.6,delay:t*.2},viewport:{once:!0},className:`\r
               group\r
-\r
               relative\r
-\r
-              overflow-hidden\r
-\r
               rounded-[28px]\r
-\r
-              border\r
-\r
-              border-white/10\r
-\r
-              bg-white/[0.03]\r
-\r
+              overflow-hidden\r
+              border border-white/10\r
+              bg-gradient-to-b\r
+              from-white/[0.05]\r
+              to-white/[0.02]\r
               backdrop-blur-xl\r
 \r
+              hover:-translate-y-2\r
               transition-all\r
-\r
               duration-500\r
 \r
-              hover:border-[#7EC8E3]/30\r
-\r
-              hover:shadow-[0_0_40px_rgba(126,200,227,0.12)]\r
-\r
-              `,children:[(0,S.jsx)(`div`,{className:`overflow-hidden`,children:(0,S.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
-\r
+              hover:border-cyan-400/30\r
+              hover:shadow-[0_0_40px_rgba(34,211,238,0.15)]\r
+              `,children:[(0,S.jsx)(`div`,{className:`\r
+                absolute\r
+                top-0\r
+                left-10\r
+                w-28\r
+                h-[2px]\r
+                bg-cyan-400\r
+                blur-sm\r
+                opacity-70\r
+              `}),(0,S.jsxs)(`div`,{className:`relative overflow-hidden`,children:[(0,S.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
                   w-full\r
-\r
                   h-[240px]\r
-\r
                   object-cover\r
-\r
                   transition-transform\r
-\r
                   duration-700\r
-\r
                   group-hover:scale-105\r
-\r
-                  `})}),(0,S.jsxs)(`div`,{className:`p-6`,children:[(0,S.jsx)(`h3`,{className:`\r
-\r
-                  text-xl\r
-\r
-                  md:text-2xl\r
-\r
+                  `}),(0,S.jsx)(`div`,{className:`\r
+                  absolute inset-0\r
+                  bg-gradient-to-t\r
+                  from-[#09090f]\r
+                  via-transparent\r
+                  to-transparent\r
+                `})]}),(0,S.jsxs)(`div`,{className:`p-7`,children:[(0,S.jsx)(`p`,{className:`\r
+                  text-[#7EC8E3]\r
+                  uppercase\r
+                  tracking-[0.25em]\r
+                  text-[11px]\r
                   font-semibold\r
-\r
-                  text-white\r
-\r
-                  `,children:e.title}),(0,S.jsx)(`p`,{className:`\r
-\r
+                `,children:e.category}),(0,S.jsx)(`h3`,{className:`\r
                   mt-4\r
-\r
+                  text-2xl\r
+                  font-bold\r
+                  text-white\r
+                `,children:e.title}),(0,S.jsx)(`p`,{className:`\r
+                  mt-4\r
+                  text-gray-400\r
+                  leading-relaxed\r
                   text-sm\r
+                `,children:e.description}),(0,S.jsx)(`div`,{className:`\r
+                  mt-5\r
+                  flex\r
+                  flex-wrap\r
+                  gap-2\r
+                `,children:e.stack.map((e,t)=>(0,S.jsx)(`span`,{className:`\r
+                      px-3\r
+                      py-1\r
+                      text-[11px]\r
+                      rounded-full\r
 \r
-                  leading-7\r
+                      bg-cyan-400/10\r
+                      border border-cyan-400/20\r
 \r
-                  text-white/60\r
-\r
-                  `,children:e.description}),(0,S.jsxs)(`div`,{className:`mt-6 flex gap-4`,children:[(0,S.jsx)(`a`,{href:e.live,target:`_blank`,rel:`noreferrer`,className:`\r
-\r
-                    px-5\r
-\r
-                    py-2.5\r
-\r
+                      text-cyan-300\r
+                      tracking-wider\r
+                      `,children:e},t))}),(0,S.jsxs)(`div`,{className:`\r
+                  mt-7\r
+                  flex\r
+                  gap-4\r
+                `,children:[(0,S.jsx)(`a`,{href:e.live,target:`_blank`,rel:`noreferrer`,className:`\r
+                    px-5 py-3\r
                     rounded-xl\r
 \r
                     bg-[#7EC8E3]\r
-\r
-                    text-[#09090f]\r
-\r
-                    text-sm\r
-\r
+                    text-[#120F19]\r
                     font-medium\r
 \r
-                    transition-all\r
-\r
-                    duration-300\r
+                    transition-all duration-300\r
 \r
                     hover:scale-105\r
-\r
-                    hover:shadow-[0_0_25px_#7EC8E3]\r
-\r
+                    hover:shadow-[0_0_30px_#7EC8E3]\r
                     `,children:`Live Demo`}),(0,S.jsx)(`a`,{href:e.github,target:`_blank`,rel:`noreferrer`,className:`\r
-\r
-                    px-5\r
-\r
-                    py-2.5\r
-\r
+                    px-5 py-3\r
                     rounded-xl\r
 \r
-                    border\r
+                    border border-white/10\r
+                    text-white\r
 \r
-                    border-white/10\r
+                    hover:border-cyan-400/40\r
+                    hover:bg-white/5\r
 \r
-                    text-white/80\r
-\r
-                    text-sm\r
-\r
-                    font-medium\r
-\r
-                    transition-all\r
-\r
-                    duration-300\r
-\r
-                    hover:border-[#7EC8E3]/40\r
-\r
-                    hover:text-[#7EC8E3]\r
-\r
-                    `,children:`GitHub`})]})]})]},t))}),(0,S.jsx)(FT.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},transition:{duration:.6},viewport:{once:!0},className:`mt-14 flex justify-center`,children:(0,S.jsxs)(xm,{to:`/projects`,className:`\r
-\r
-            group\r
-\r
-            relative\r
-\r
-            overflow-hidden\r
-\r
-            px-8\r
-\r
-            py-3\r
-\r
+                    transition-all duration-300\r
+                    `,children:`GitHub`})]})]})]},t))}),(0,S.jsx)(FT.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{duration:.7},viewport:{once:!0},className:`mt-16 flex justify-center`,children:(0,S.jsx)(xm,{to:`/projects`,className:`\r
+            px-8 py-4\r
             rounded-2xl\r
 \r
-            border\r
+            border border-cyan-400/30\r
+            bg-white/[0.03]\r
 \r
-            border-[#7EC8E3]/30\r
+            text-cyan-300\r
+            font-medium\r
 \r
-            text-[#7EC8E3]\r
+            transition-all duration-300\r
 \r
-            transition-all\r
+            hover:bg-cyan-400\r
+            hover:text-[#09090f]\r
 \r
-            duration-300\r
-\r
+            hover:shadow-[0_0_30px_rgba(34,211,238,0.4)]\r
             hover:scale-105\r
+            `,children:`View All Projects`})})]})]})}function VT(){return(0,S.jsxs)(`section`,{id:`contact`,className:`\r
+      relative\r
+      overflow-hidden\r
+      py-28\r
+      bg-[#070B14]\r
+      `,children:[(0,S.jsxs)(`div`,{className:`absolute inset-0`,children:[(0,S.jsx)(`div`,{className:`\r
+          absolute\r
+          top-[-150px]\r
+          left-1/2\r
+          -translate-x-1/2\r
 \r
-            hover:border-[#7EC8E3]\r
+          w-[700px]\r
+          h-[700px]\r
 \r
-            hover:shadow-[0_0_30px_rgba(126,200,227,0.25)]\r
+          bg-cyan-400/10\r
+          blur-[140px]\r
+          rounded-full\r
+        `}),(0,S.jsx)(`div`,{className:`\r
+          absolute\r
+          bottom-[-200px]\r
+          right-[-100px]\r
 \r
-            `,children:[(0,S.jsx)(`span`,{className:`relative z-10`,children:`View All Projects`}),(0,S.jsx)(`div`,{className:`\r
+          w-[500px]\r
+          h-[500px]\r
 \r
-              absolute\r
+          bg-blue-500/10\r
+          blur-[140px]\r
+          rounded-full\r
+        `}),(0,S.jsx)(`div`,{className:`\r
+          absolute inset-0\r
+          opacity-[0.04]\r
 \r
-              inset-0\r
+          [background-image:linear-gradient(to_right,#7EC8E3_1px,transparent_1px),linear-gradient(to_bottom,#7EC8E3_1px,transparent_1px)]\r
 \r
-              opacity-0\r
+          [background-size:70px_70px]\r
+        `})]}),(0,S.jsx)(`div`,{className:`\r
+        relative z-10\r
+        max-w-[1100px]\r
+        mx-auto\r
+        px-6\r
+      `,children:(0,S.jsxs)(FT.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`\r
+          relative\r
+          overflow-hidden\r
 \r
-              group-hover:opacity-100\r
+          rounded-[36px]\r
 \r
-              transition\r
+          border border-white/10\r
 \r
-              duration-500\r
+          bg-gradient-to-b\r
+          from-white/[0.06]\r
+          to-white/[0.02]\r
 \r
-              bg-[radial-gradient(circle,#7EC8E320,transparent_70%)]\r
+          backdrop-blur-xl\r
 \r
-              `})]})})]})]})}function BT(){return(0,S.jsxs)(`div`,{className:`relative min-h-screen bg-primary text-white `,children:[(0,S.jsx)(C,{}),(0,S.jsx)(zm,{}),(0,S.jsx)(eh,{}),(0,S.jsx)(LT,{}),(0,S.jsx)(zT,{})]})}function VT(){return(0,S.jsxs)(`div`,{className:`bg-[#120F19] min-h-screen text-white pt-32 px-6 md:px-12`,children:[(0,S.jsx)(`h1`,{className:`text-3xl font-bold mb-10 text-center`,children:`All Projects`}),(0,S.jsx)(zT,{})]})}(0,y.createRoot)(document.getElementById(`root`)).render((0,S.jsx)(b.StrictMode,{children:(0,S.jsx)(vm,{children:(0,S.jsxs)(jp,{children:[(0,S.jsx)(kp,{path:`/`,element:(0,S.jsx)(BT,{})}),(0,S.jsx)(kp,{path:`/projects`,element:(0,S.jsx)(VT,{})})]})})}));
+          px-8 py-20\r
+          md:px-16\r
+          text-center\r
+          `,children:[(0,S.jsx)(`div`,{className:`\r
+            absolute\r
+            top-0\r
+            left-1/2\r
+            -translate-x-1/2\r
+\r
+            w-[300px]\r
+            h-[2px]\r
+\r
+            bg-cyan-400\r
+            blur-sm\r
+          `}),(0,S.jsx)(FT.div,{animate:{y:[0,-20,0]},transition:{duration:5,repeat:1/0,ease:`easeInOut`},className:`\r
+            absolute\r
+            right-10\r
+            top-10\r
+\r
+            hidden md:block\r
+\r
+            w-20 h-20\r
+\r
+            rounded-full\r
+\r
+            bg-cyan-400/20\r
+            blur-2xl\r
+            `}),(0,S.jsxs)(FT.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},transition:{delay:.2},viewport:{once:!0},className:`\r
+            flex\r
+            items-center\r
+            justify-center\r
+            gap-3\r
+            `,children:[(0,S.jsx)(`div`,{className:`\r
+              w-10 h-[1px]\r
+              bg-cyan-400\r
+            `}),(0,S.jsx)(`p`,{className:`\r
+              uppercase\r
+              tracking-[0.35em]\r
+              text-[#7EC8E3]\r
+              text-xs\r
+              font-semibold\r
+            `,children:`Let’s Build`}),(0,S.jsx)(`div`,{className:`\r
+              w-10 h-[1px]\r
+              bg-cyan-400\r
+            `})]}),(0,S.jsxs)(FT.h2,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{delay:.3},viewport:{once:!0},className:`\r
+            mt-8\r
+\r
+            text-4xl\r
+            md:text-6xl\r
+\r
+            font-black\r
+            leading-tight\r
+\r
+            text-white\r
+            `,children:[`Building Systems`,` `,(0,S.jsx)(`span`,{className:`\r
+              text-transparent\r
+              bg-clip-text\r
+\r
+              bg-gradient-to-r\r
+              from-cyan-300\r
+              to-blue-400\r
+            `,children:`That Matter`})]}),(0,S.jsxs)(FT.p,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{delay:.4},viewport:{once:!0},className:`\r
+            mt-8\r
+\r
+            max-w-[750px]\r
+            mx-auto\r
+\r
+            text-gray-400\r
+            leading-relaxed\r
+\r
+            text-base\r
+            md:text-lg\r
+            `,children:[`From scalable frontend systems to intelligent software experiences, I build products engineered for performance, usability, and real-world impact.`,(0,S.jsx)(`br`,{}),(0,S.jsx)(`br`,{}),`Whether it’s AI-powered automation, modern interfaces, or engineering-focused solutions — I’m always open to building something meaningful.`]}),(0,S.jsxs)(FT.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},transition:{delay:.5},viewport:{once:!0},className:`\r
+            mt-12\r
+\r
+            flex\r
+            flex-col sm:flex-row\r
+\r
+            justify-center\r
+            items-center\r
+\r
+            gap-5\r
+            `,children:[(0,S.jsxs)(`a`,{href:`mailto:mubarakgiwa72@gmail.com`,className:`\r
+              group\r
+\r
+              relative\r
+              overflow-hidden\r
+\r
+              px-8 py-4\r
+\r
+              rounded-2xl\r
+\r
+              bg-[#7EC8E3]\r
+\r
+              text-[#07111F]\r
+              font-semibold\r
+\r
+              transition-all\r
+              duration-300\r
+\r
+              hover:scale-105\r
+              hover:shadow-[0_0_40px_rgba(126,200,227,0.5)]\r
+              `,children:[(0,S.jsx)(`span`,{className:`relative z-10`,children:`Start a Project`}),(0,S.jsx)(`div`,{className:`\r
+                absolute inset-0\r
+\r
+                translate-y-full\r
+                group-hover:translate-y-0\r
+\r
+                transition-transform\r
+                duration-500\r
+\r
+                bg-white/20\r
+              `})]}),(0,S.jsx)(`a`,{href:`/resume.pdf`,target:`_blank`,rel:`noreferrer`,className:`\r
+              px-8 py-4\r
+\r
+              rounded-2xl\r
+\r
+              border border-white/10\r
+\r
+              bg-white/[0.03]\r
+\r
+              text-white\r
+\r
+              transition-all\r
+              duration-300\r
+\r
+              hover:border-cyan-400/40\r
+              hover:bg-cyan-400/10\r
+              hover:text-cyan-300\r
+              `,children:`View Resume`})]}),(0,S.jsx)(FT.p,{initial:{opacity:0},whileInView:{opacity:1},transition:{delay:.7},viewport:{once:!0},className:`\r
+            mt-12\r
+\r
+            text-sm\r
+            tracking-[0.25em]\r
+            uppercase\r
+\r
+            text-gray-500\r
+            `,children:`Computer Engineer • Frontend Developer • Intelligent Systems`})]})})]})}function HT(){return(0,S.jsxs)(`div`,{className:`relative min-h-screen bg-primary text-white `,children:[(0,S.jsx)(C,{}),(0,S.jsx)(zm,{}),(0,S.jsx)(eh,{}),(0,S.jsx)(LT,{}),(0,S.jsx)(BT,{}),(0,S.jsx)(VT,{})]})}function UT(){return(0,S.jsxs)(`div`,{className:`bg-[#120F19] min-h-screen text-white pt-32 px-6 md:px-12`,children:[(0,S.jsx)(`h1`,{className:`text-3xl font-bold mb-10 text-center`,children:`All Projects`}),(0,S.jsx)(BT,{})]})}(0,y.createRoot)(document.getElementById(`root`)).render((0,S.jsx)(b.StrictMode,{children:(0,S.jsx)(vm,{children:(0,S.jsxs)(jp,{children:[(0,S.jsx)(kp,{path:`/`,element:(0,S.jsx)(HT,{})}),(0,S.jsx)(kp,{path:`/projects`,element:(0,S.jsx)(UT,{})})]})})}));
