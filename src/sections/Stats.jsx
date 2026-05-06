@@ -1,155 +1,141 @@
-import SectionDivider from "../components/SectionDivider";
+const stats = [
+  {
+    value: "10+",
+    label: "PROJECTS BUILT",
+  },
+  {
+    value: "92%",
+    label: "FIRST CLASS GRADUATE",
+  },
+  {
+    value: "2",
+    label: "ENGINEERING DOMAINS",
+  },
+  {
+    value: "1+",
+    label: "SMART SYSTEM BUILT",
+  },
+];
 
 export default function Stats() {
-
-  const stats = [
-    {
-      number: "10+",
-      label: "PROJECTS BUILT",
-    },
-    {
-      number: "92%",
-      label: "FIRST CLASS GRADUATE",
-    },
-    {
-      number: "2",
-      label: "ENGINEERING DOMAINS",
-    },
-    {
-      number: "1+",
-      label: "SMART SYSTEM BUILT",
-    },
-  ];
-
   return (
     <section
       className="
       relative
-      z-10
-      py-28
-      mt-5
-
-      bg-[radial-gradient(circle_at_top,#1e1b2d_0%,#14111c_45%,#0f0d15_100%)]
-
+      overflow-hidden
+      py-10 md:py-14
+      bg-[#0b0b17]
       border-t
       border-white/5
       "
     >
 
-      {/* TOP GLOW */}
-      <div
-        className="
-        absolute
-        top-0
-        left-1/2
-        -translate-x-1/2
+      {/* BACKGROUND */}
+      <div className="absolute inset-0">
 
-        w-[500px]
-        h-[200px]
+        <div
+          className="
+          absolute
+          inset-0
+          bg-[radial-gradient(circle_at_top,#141428_0%,#0b0b17_65%)]
+          "
+        />
 
-        bg-[#7EC8E3]/10
-        blur-3xl
-        rounded-full
-        pointer-events-none
-        "
-      />
+      </div>
 
-      <div className="max-w-[1200px] mx-auto px-6 md:px-12 lg:px-20">
+      {/* CONTENT */}
+      <div className="relative z-10 max-w-[1100px] mx-auto px-5">
 
         {/* TITLE */}
-        <SectionDivider title="Snapshot" />
+        <div className="text-center mb-8">
+
+          <p
+            className="
+            text-[#7EC8E3]
+            uppercase
+            tracking-[0.35em]
+            text-[10px]
+            md:text-xs
+            "
+          >
+            Snapshot
+          </p>
+
+          <div
+            className="
+            w-16
+            h-[1px]
+            bg-[#7EC8E3]/20
+            mx-auto
+            mt-3
+            "
+          />
+
+        </div>
 
         {/* GRID */}
         <div
           className="
-          mt-16
-
           grid
           grid-cols-2
-          md:grid-cols-4
-
-          gap-6
+          lg:grid-cols-4
+          gap-3 md:gap-4
           "
         >
 
           {stats.map((stat, index) => (
-
             <div
               key={index}
               className="
-              relative
-              overflow-hidden
-
-              rounded-3xl
+              rounded-[22px]
 
               border
-              border-white/10
+              border-white/8
 
-              bg-white/[0.04]
+              bg-white/[0.02]
 
-              backdrop-blur-xl
+              px-5
+              py-6
 
-              p-8
+              min-h-[135px]
 
               transition-all
-              duration-500
+              duration-300
 
-              hover:-translate-y-2
-              hover:border-[#7EC8E3]
-              hover:shadow-[0_0_35px_rgba(126,200,227,0.18)]
+              hover:border-[#7EC8E3]/30
+              hover:bg-white/[0.03]
               "
             >
 
-              {/* CARD GLOW */}
-              <div
-                className="
-                absolute
-                -top-10
-                -right-10
-
-                w-28
-                h-28
-
-                rounded-full
-
-                bg-[#7EC8E3]/10
-                blur-3xl
-                "
-              />
-
-              {/* NUMBER */}
               <h3
                 className="
-                relative
-                text-4xl
-                md:text-5xl
+                text-3xl
+                md:text-4xl
                 font-bold
                 text-[#7EC8E3]
                 "
               >
-                {stat.number}
+                {stat.value}
               </h3>
 
-              {/* LABEL */}
               <p
                 className="
-                relative
-                mt-4
+                mt-3
 
-                text-sm
-                md:text-base
+                text-[10px]
+                md:text-xs
 
-                tracking-[0.15em]
+                leading-5
 
-                text-white/65
-                leading-relaxed
+                tracking-[0.25em]
+
+                text-white/55
                 "
               >
                 {stat.label}
               </p>
 
             </div>
-
           ))}
 
         </div>
