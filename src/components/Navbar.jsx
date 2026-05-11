@@ -70,8 +70,14 @@ export default function Navbar() {
    ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}
 >
 
-        <a onClick={() => setOpen(false)} className="hover:text-[#7EC8E3]">Home</a>
-        <a onClick={() => setOpen(false)} className="hover:text-[#7EC8E3]">Projects</a>
+        <Link
+  to="/"
+  onClick={() => setOpen(false)}
+  className="hover:text-[#7EC8E3] transition"
+>
+  Home
+</Link>
+        <a onClick={() => setOpen(false)} className="hover:text-[#7EC8E3]" to="/projects"><Link       to="/projects"       className="hover:text-[#7EC8E3] transition"     >       Projects     </Link></a>
         <a onClick={() => setOpen(false)} className="hover:text-[#7EC8E3]">Education</a>
         <a onClick={() => setOpen(false)} className="hover:text-[#7EC8E3]">Experience</a>
 
