@@ -3,20 +3,27 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+
+  
+  "engines": {
+  "node": ">=20.0.0"
+  },
+"scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.1",
     "@tsparticles/react": "^3.0.0",
     "autoprefix": "^1.0.1",
+    "framer-motion": "^12.38.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-router-dom": "^7.15.0",
     "react-tsparticles": "^2.12.2",
     "react-type-animation": "^3.2.0",
     "tsparticles": "^3.9.1",

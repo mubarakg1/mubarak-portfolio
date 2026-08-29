@@ -25,7 +25,7 @@ export default function Particle() {
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           style={{
-            position: "fixed",
+            position: "absolute",
             inset: 0,
             zIndex: -1,
           }}
@@ -34,11 +34,11 @@ export default function Particle() {
             interactivity: {
               events: {
                 onClick: {
-                  enable: true,
-                  mode: "push",
+                  enable: window.innerWidth > 768,
+                  mode: "repulse",
                 },
                 onHover: {
-                  enable: true,
+                    enable: window.innerWidth > 768,
                   mode: "repulse",
                 },
                 resize: true,
