@@ -18,8 +18,10 @@ function App() {
       <Navbar/>
 
       <Hero/>
-
-      
+      <Stats/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
