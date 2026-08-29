@@ -13,10 +13,8 @@ function App() {
       <ParticleBackground/>
       <Navbar/>
 
-  
       <Hero/>
 
-      
     </div>
   );
 }
