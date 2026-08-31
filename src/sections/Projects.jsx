@@ -38,9 +38,9 @@ export default function Projects() {
 
       image: yap,
 
-      live: "https://github.com/mubarakg1/expense-tracker",
+      live: "https://yapassist.onrender.com/",
 
-      github: "https://github.com/mubarakg1/expense-tracker",
+      github: "https://github.com/mubarakg1/yapassist",
     },
     {
       title: "Personal Expense Tracker",
@@ -54,9 +54,9 @@ export default function Projects() {
 
       image: expense,
 
-      live: "#",
+      live: "https://github.com/mubarakg1/expense-tracker",
 
-      github: "#",
+      github: "https://github.com/mubarakg1/expense-tracker",
     },
   ];
 

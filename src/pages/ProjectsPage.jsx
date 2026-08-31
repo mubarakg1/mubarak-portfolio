@@ -10,6 +10,8 @@ import nutrition from "../assets/projects-images/smart-nutrition.png";
 
 import yap from "../assets/projects-images/yapassist.png";
 
+import expense from "../assets/projects-images/expense-tracker.png";
+
 export default function ProjectsPage() {
 
   const projects = [
@@ -24,27 +26,20 @@ export default function ProjectsPage() {
 
       stack: [
 
-        "React",
-
-        "Tailwind",
-
-        "Firebase",
-
-        "AI",
-
+        "Vanilla JS", "React", "Tailwind", "node.js", "PostgreSQL", "prisma"
       ],
 
       description:
 
-        "Intelligent nutrition recommendation platform engineered to help users receive personalized meal and health suggestions using smart data analysis systems.",
+        "A simple and intuitive web application to track personal expenses and manage budgets effectively.",
 
       live:
 
-        "https://mubarakg1.github.io/smart-nutrition/",
+        "https://github.com/mubarakg1/expense-tracker",
 
       github:
 
-        "https://github.com/mubarakg1/smart-nutrition",
+        "https://github.com/mubarakg1/expense-tracker",
 
     },
 
@@ -81,6 +76,39 @@ export default function ProjectsPage() {
         "https://github.com/mubarakg1/YAPASSIST",
 
     },
+    {
+
+      title: "Personal Expense Tracker",
+
+      category: "Fintech • Personal Finance",
+
+      image: expense,
+
+      stack: [
+
+        "React",
+
+        "Tailwind",
+
+        "Automation",
+
+        "AI",
+
+      ],
+
+      description:
+
+        "AI-powered assistant designed to help users instantly generate structured responses, content ideas, and intelligent outputs with a clean modern experience.",
+
+      live:
+
+        "https://yapassist.vercel.app/",
+
+      github:
+
+        "https://github.com/mubarakg1/YAPASSIST",
+
+    }
 
   ];
 
