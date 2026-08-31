@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import nutrition from "../assets/projects-images/smart-nutrition.png";
 import yap from "../assets/projects-images/yapassist.png";
+import expense from "../assets/projects-images/expense-tracker.png";
 
 export default function Projects() {
 
@@ -36,6 +37,22 @@ export default function Projects() {
         "AI-powered assistant that helps generate content, ideas and structured responses instantly.",
 
       image: yap,
+
+      live: "https://github.com/mubarakg1/expense-tracker",
+
+      github: "https://github.com/mubarakg1/expense-tracker",
+    },
+    {
+      title: "Personal Expense Tracker",
+
+      category: "Fintech • Personal Finance",
+
+      stack: ["Vanilla JS", "React", "Tailwind", "node.js", "PostgreSQL", "prisma"],
+
+      description:
+        "A simple and intuitive web application to track personal expenses and manage budgets effectively.",
+
+      image: expense,
 
       live: "#",
 
