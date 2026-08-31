@@ -25,45 +25,6 @@ export default function Hero() {
       <ParticleBackground />
 
       {/* BACKGROUND GLOWS */}
-      <div className="absolute inset-0 overflow-hidden">
-
-        {/* cyan glow */}
-        <div
-          className="
-          absolute
-
-          top-[-200px]
-          left-[-150px]
-
-          w-[500px]
-          h-[500px]
-
-          rounded-full
-
-          bg-cyan-400/10
-          blur-[140px]
-          "
-        />
-
-        {/* blue glow */}
-        <div
-          className="
-          absolute
-
-          bottom-[-250px]
-          right-[-150px]
-
-          w-[500px]
-          h-[500px]
-
-          rounded-full
-
-          bg-blue-500/10
-          blur-[140px]
-          "
-        />
-
-      </div>
 
       {/* MAIN CONTENT */}
       <div

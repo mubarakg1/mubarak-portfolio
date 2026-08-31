@@ -6,7 +6,8 @@ import Stats from './sections/Stats';
 import Projects from "./sections/Projects";
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
-// src\components\Cursor.jsx
+// src\components\Cursor.jsxs
+
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <div className="relative min-h-screen bg-primary text-white ">
 
       <Cursor/>
-      {/* <ParticleBackground/> */}
+      <ParticleBackground/>
       <Navbar/>
 
       <Hero/>

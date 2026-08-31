@@ -15,49 +15,7 @@ export default function ContactSection() {
     >
 
       {/* MAIN BACKGROUND */}
-      <div className="absolute inset-0">
-
-        {/* TOP CYAN GLOW */}
-        <div className="
-          absolute
-          top-[-150px]
-          left-1/2
-          -translate-x-1/2
-
-          w-[700px]
-          h-[700px]
-
-          bg-cyan-400/10
-          blur-[140px]
-          rounded-full
-        " />
-
-        {/* BOTTOM BLUE GLOW */}
-        <div className="
-          absolute
-          bottom-[-200px]
-          right-[-100px]
-
-          w-[500px]
-          h-[500px]
-
-          bg-blue-500/10
-          blur-[140px]
-          rounded-full
-        " />
-
-        {/* GRID LINES */}
-        <div className="
-          absolute inset-0
-          opacity-[0.04]
-
-          [background-image:linear-gradient(to_right,#7EC8E3_1px,transparent_1px),linear-gradient(to_bottom,#7EC8E3_1px,transparent_1px)]
-
-          [background-size:70px_70px]
-        " />
-
-      </div>
-
+      
       {/* CONTENT */}
       <div className="
         relative z-10

@@ -9,11 +9,11 @@
   "node": ">=20.0.0"
   },
 "scripts": {
-    "dev": "vite",
+    "dev": "vite --host --port 3005",
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "preview": "vite preview",
+    "preview": "vite preview --host --port 3005",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

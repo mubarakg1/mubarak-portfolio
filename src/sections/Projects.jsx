@@ -57,7 +57,7 @@ export default function Projects() {
     >
 
       {/* BACKGROUND GLOW */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* <div className="absolute inset-0 overflow-hidden">
 
         <div className="
           absolute
@@ -82,7 +82,7 @@ export default function Projects() {
           rounded-full
         " />
 
-      </div>
+      </div> */}
 
       {/* CONTENT */}
       <div className="relative z-10 max-w-[1200px] mx-auto px-6">

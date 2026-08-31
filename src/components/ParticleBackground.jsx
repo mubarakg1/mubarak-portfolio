@@ -10,7 +10,7 @@ export default function Particle() {
     initParticlesEngine(async (engine) => {
       await loadFull(engine);
     }).then(() => {
-      setInit(true);
+    setInit(true);
     });
   }, []);
 
