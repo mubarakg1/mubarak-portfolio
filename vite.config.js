@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // Sets the base folder for GitHub Actions, defaults to root for Vercel
-  base: process.env.GITHUB_ACTIONS ? "/mubarak-portfolio/" : "/",
+  // If building for GitHub, use the subfolder. Otherwise, default to root.
+  base: process.env.BUILD_TARGET === "github" ? "/mubarak-portfolio/" : "/",
   build: {
     chunkSizeWarningLimit: 1000,
   }
